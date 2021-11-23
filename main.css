@@ -1,0 +1,94 @@
+body{
+  background: url("");
+  background-size: cover;
+  
+}
+
+.container{
+  
+  text-align: center;
+  opacity: 1;
+}
+
+a {
+  font-size: large;
+  text-decoration: none;
+  transition: transform 0.5s;
+  
+}
+
+a:hover {
+  text-decoration: underline;
+  font-stretch: extra-expanded;
+  transform: scale(1.5);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+}
+
+.headshot {
+ 
+  padding: 100px;
+}
+
+img {
+  width: 25%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 20px 40px 50px dimgray;
+}
+
+
+
+.headline {
+  text-decoration: underline;
+  font-size: x-large;
+}
+
+p {
+  font-size: x-large;
+}
+
+#skills_list{
+  display: flex;
+  margin: auto;
+  box-sizing: content-box;
+  text-align: justify;
+  width: 350px;
+  height: auto;
+  padding: 40px;
+  border-radius: 50px;
+  background-color: rgb(177, 172, 172);
+  box-shadow: 20px 20px 50px dimgray;
+}
+
+#skills_heading{
+  text-align: center;
+  padding-bottom: 20px;
+}
+.contact{
+  padding: 50px;
+}
+#contact{
+  display: grid;
+  grid-template: 50px auto auto;
+  grid-gap: 30px;
+  margin:auto;
+  padding: 50px;
+  font-size: large;
+}
+
+#project_links {
+  display: grid;
+  grid-template: 150px / auto auto auto;
+  grid-gap: 50px 100px;
+  padding: 50px;
+  font-size: large;
+  text-decoration: none;
+}
+
+footer {
+  padding-top: 100px;
+  text-align: center;
+}
