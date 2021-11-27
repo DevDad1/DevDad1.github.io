@@ -1,20 +1,30 @@
-body{
-  background: url("");
-  background-size: cover;
-  
+body {
+  background-color: darkgray;
 }
 
-.container{
-  
+.container {
+  justify-content: center;
+  margin: 2rem;
+  padding: 11px;
+}
+
+article {
+  height: 450px;
+  border: rgb(248, 246, 246) solid 3px;
+  border-radius: 25px;
+  box-shadow: 20px 20px 50px dimgray;
+  justify-content: center;
+  padding: 20px;
+  margin: 10px;
+  background-color: rgb(44, 44, 46);
+  color: rgb(161, 167, 173);
   text-align: center;
-  opacity: 1;
 }
 
 a {
   font-size: large;
   text-decoration: none;
   transition: transform 0.5s;
-  
 }
 
 a:hover {
@@ -24,24 +34,49 @@ a:hover {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.aboutme {
+  text-align: center;
+}
+
+#page_links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+#page_links > a {
+  max-width: 100px;
+  border: aliceblue solid 3px;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px;
+  background-color: rgb(161, 167, 173);
+  color: rgb(44, 44, 46);
+}
+
 header {
+  text-align: center;
+  padding: 50px;
+  font-size: large;
+  text-decoration: none;
 }
 
 .headshot {
- 
-  padding: 100px;
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 50px;
 }
 
-img {
+#headshot {
   width: 25%;
   height: auto;
   border-radius: 50%;
   box-shadow: 20px 40px 50px dimgray;
 }
 
-
-
 .headline {
+  text-align: center;
   text-decoration: underline;
   font-size: x-large;
 }
@@ -50,7 +85,7 @@ p {
   font-size: x-large;
 }
 
-#skills_list{
+#skills_list {
   display: flex;
   margin: auto;
   box-sizing: content-box;
@@ -63,29 +98,42 @@ p {
   box-shadow: 20px 20px 50px dimgray;
 }
 
-#skills_heading{
-  text-align: center;
+#skills_heading {
   padding-bottom: 20px;
 }
-.contact{
+.contact {
+  text-align: center;
   padding: 50px;
 }
-#contact{
-  display: grid;
-  grid-template: 50px auto auto;
-  grid-gap: 30px;
-  margin:auto;
-  padding: 50px;
-  font-size: large;
+
+#contact_links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+#contact_links > a {
+  max-width: 100px;
+  border: aliceblue solid 3px;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px;
+  background-color: rgb(161, 167, 173);
+  color: rgb(44, 44, 46);
 }
 
 #project_links {
-  display: grid;
-  grid-template: 150px / auto auto auto;
-  grid-gap: 50px 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   padding: 50px;
   font-size: large;
   text-decoration: none;
+}
+
+#img_link {
+  max-width: 500px;
 }
 
 footer {
