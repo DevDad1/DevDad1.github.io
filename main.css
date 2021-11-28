@@ -3,22 +3,26 @@ body {
 }
 
 .container {
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
   margin: 2rem;
   padding: 11px;
 }
 
 article {
-  height: 450px;
+  height: 475px;
   border: rgb(248, 246, 246) solid 3px;
   border-radius: 25px;
   box-shadow: 20px 20px 50px dimgray;
-  justify-content: center;
+
   padding: 20px;
   margin: 10px;
   background-color: rgb(44, 44, 46);
   color: rgb(161, 167, 173);
   text-align: center;
+}
+
+article > p {
 }
 
 a {
@@ -87,10 +91,12 @@ p {
 
 #skills_list {
   display: flex;
+  justify-content: center;
   margin: auto;
-  box-sizing: content-box;
   text-align: justify;
-  width: 350px;
+  min-width: 200px;
+  max-width: fit-content;
+  width: 33%;
   height: auto;
   padding: 40px;
   border-radius: 50px;
