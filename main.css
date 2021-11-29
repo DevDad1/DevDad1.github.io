@@ -1,5 +1,5 @@
 body {
-  background-color: darkgray;
+  background-color: rgb(179, 179, 179);
 }
 
 .container {
@@ -9,20 +9,11 @@ body {
   padding: 11px;
 }
 
-article {
-  height: 475px;
-  border: rgb(248, 246, 246) solid 3px;
-  border-radius: 25px;
-  box-shadow: 20px 20px 50px dimgray;
-
-  padding: 20px;
-  margin: 10px;
-  background-color: rgb(44, 44, 46);
-  color: rgb(161, 167, 173);
+header {
   text-align: center;
-}
-
-article > p {
+  padding: 50px;
+  font-size: large;
+  text-decoration: none;
 }
 
 a {
@@ -36,10 +27,6 @@ a:hover {
   font-stretch: extra-expanded;
   transform: scale(1.5);
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.aboutme {
-  text-align: center;
 }
 
 #page_links {
@@ -58,11 +45,14 @@ a:hover {
   color: rgb(44, 44, 46);
 }
 
-header {
+.aboutme {
   text-align: center;
-  padding: 50px;
-  font-size: large;
-  text-decoration: none;
+}
+
+.headline {
+  text-align: center;
+  text-decoration: underline;
+  font-size: x-large;
 }
 
 .headshot {
@@ -79,10 +69,11 @@ header {
   box-shadow: 20px 40px 50px dimgray;
 }
 
-.headline {
-  text-align: center;
-  text-decoration: underline;
-  font-size: x-large;
+.aboutme > p {
+  max-width: 66%;
+  margin: auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 p {
@@ -107,6 +98,7 @@ p {
 #skills_heading {
   padding-bottom: 20px;
 }
+
 .contact {
   text-align: center;
   padding: 50px;
@@ -126,6 +118,18 @@ p {
   margin: 10px;
   background-color: rgb(161, 167, 173);
   color: rgb(44, 44, 46);
+}
+
+article {
+  height: 475px;
+  border: rgb(248, 246, 246) solid 3px;
+  border-radius: 25px;
+  box-shadow: 20px 20px 50px dimgray;
+  padding: 20px;
+  margin: 10px;
+  background-color: rgb(44, 44, 46);
+  color: rgb(161, 167, 173);
+  text-align: center;
 }
 
 #project_links {
