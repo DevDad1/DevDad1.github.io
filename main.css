@@ -120,6 +120,11 @@ p {
   color: rgb(44, 44, 46);
 }
 
+.icon {
+  height: 25px;
+  width: auto;
+}
+
 article {
   height: 475px;
   border: rgb(248, 246, 246) solid 3px;
