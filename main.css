@@ -137,6 +137,10 @@ article {
   text-align: center;
 }
 
+.skills {
+  word-wrap: normal;
+}
+
 #project_links {
   display: flex;
   flex-direction: row;
